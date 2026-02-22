@@ -13,7 +13,6 @@ This project predicts the final marks of a student based on:
 
 ## Project Files
 - main.py → Main program file
-- dataset.csv → Dataset used for training (if applicable)
 
 ## How to Run the Project
 
