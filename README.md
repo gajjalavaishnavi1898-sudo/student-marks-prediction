@@ -2,14 +2,18 @@
 
 ## Project Description
 This project predicts the final marks of a student based on:
-- Internal Marks
-- Attendance
 - Study Hours
+- Attendance (%)
+- Internal Marks
 
 ## Technologies Used
 - Python
 - NumPy
 - Scikit-learn
+
+## Project Files
+- main.py → Main program file
+- dataset.csv → Dataset used for training (if applicable)
 
 ## How to Run the Project
 
@@ -19,12 +23,17 @@ pip install numpy scikit-learn
 2. Run the program:
 python main.py
 
-## Sample Output
-Model Performance:
-MAE: 0.7  
-RMSE: 0.78  
+3. Enter inputs when prompted:
+- Study Hours
+- Attendance
+- Internal Marks
 
+## Model Performance
+- MAE: 0.70  
+- RMSE: 0.78  
+
+## Sample Output
 Predicted Final Marks: 89.39
 
-## GitHub Link
-This repository contains full working code.
+## GitHub Repository
+https://github.com/gajjalavaishnavi1898-sudo/student-marks-prediction
